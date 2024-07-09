@@ -1,0 +1,1 @@
+ALTER TABLE "gpts" ADD COLUMN "longDescription" varchar(1000) DEFAULT '';

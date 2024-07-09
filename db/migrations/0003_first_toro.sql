@@ -1,0 +1,1 @@
+ALTER TABLE "gpts" ADD COLUMN "url" varchar(256) DEFAULT '';
