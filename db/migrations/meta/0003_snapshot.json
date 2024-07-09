@@ -1,0 +1,58 @@
+{
+  "id": "86a92676-6cd7-4587-8e34-e4aaa0a5f193",
+  "prevId": "4272130a-e36d-4c3c-8745-c97eed56d332",
+  "version": "6",
+  "dialect": "postgresql",
+  "tables": {
+    "public.gpts": {
+      "name": "gpts",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "name": {
+          "name": "name",
+          "type": "varchar(64)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "description": {
+          "name": "description",
+          "type": "varchar(256)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "longDescription": {
+          "name": "longDescription",
+          "type": "varchar(1000)",
+          "primaryKey": false,
+          "notNull": false,
+          "default": "''"
+        },
+        "url": {
+          "name": "url",
+          "type": "varchar(256)",
+          "primaryKey": false,
+          "notNull": false,
+          "default": "''"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}
