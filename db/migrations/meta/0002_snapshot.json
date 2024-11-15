@@ -1,6 +1,6 @@
 {
-  "id": "4272130a-e36d-4c3c-8745-c97eed56d332",
-  "prevId": "3eba0ca9-ec06-416f-bf36-5c5b5cf05a21",
+  "id": "b1dd4eea-dbdc-42f2-a061-57154bd3c6f1",
+  "prevId": "86a92676-6cd7-4587-8e34-e4aaa0a5f193",
   "version": "6",
   "dialect": "postgresql",
   "tables": {
@@ -27,8 +27,8 @@
           "primaryKey": false,
           "notNull": true
         },
-        "longDescription": {
-          "name": "longDescription",
+        "longdescription": {
+          "name": "longdescription",
           "type": "varchar(1000)",
           "primaryKey": false,
           "notNull": false,

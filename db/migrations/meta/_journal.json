@@ -15,6 +15,13 @@
       "when": 1717254204423,
       "tag": "0001_tiresome_abomination",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1720537756003,
+      "tag": "0002_flowery_jane_foster",
+      "breakpoints": true
     }
   ]
 }

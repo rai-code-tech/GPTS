@@ -15,12 +15,12 @@ const Page = async ({ params }: Props) => {
     <div>
       <div>
         <h1 className="text-6xl font-bold text-white text-center mt-16">
-          {result[0].name}
+          {result[0].name} 
         </h1>
       </div>
 
       <div className="flex flex-nowrap justify-center">
-        <p className=" mt-8 mb-8 w-3/4">{result[0].longDescription}</p>
+        <p className=" mt-8 mb-8 w-3/4">{result[0].longdescription}</p>
       </div>
       <div className="flex flex-nowrap justify-center">
         <a
